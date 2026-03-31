@@ -6,6 +6,6 @@ public class Personaje {
     private int nivel;
     protected int energia;
     public static int totalPersonajes = 0;
-
+    
     }
 
