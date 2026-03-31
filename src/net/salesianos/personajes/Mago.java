@@ -21,5 +21,28 @@ public class Mago extends Personaje {
             energia = 0;
         }
     }
+ public String getNombre() {
+        return nombre;
+    }
+
+    public int getNivel() {
+        return nivel;
+    }
+
+    public int getEnergia() {
+        return energia;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setNivel(int nivel) {
+        this.nivel = nivel;
+    }
+
+    public void setEnergia(int energia) {
+        this.energia = energia;
+    }
 
 }
