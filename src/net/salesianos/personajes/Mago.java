@@ -21,4 +21,5 @@ public class Mago extends Personaje {
             energia = 0;
         }
     }
+
 }
