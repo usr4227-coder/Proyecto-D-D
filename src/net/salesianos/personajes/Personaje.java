@@ -12,6 +12,7 @@ public class Personaje {
         this.nivel = nivel;
         this.energia = 100;
         totalPersonajes++;
+        
     }
 
     }
