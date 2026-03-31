@@ -22,5 +22,6 @@ public class Guerrero extends Personaje {
         if (energia < 0) {
             energia = 0;
         }
+        
     }
 }
