@@ -11,6 +11,11 @@ public class App {
         viajero.gastarEnergia(30);
         viajero.mostrarInfo();
         Personaje.mostrarPersonajes();
-
+        Guerrero thorak = new Guerrero("Thorak", 5, "Hacha doble");
+        thorak.ataquePesado();
+        thorak.descansar(10);
+        thorak.mostrarInfo();
+        Personaje.mostrarPersonajes();
     }
+
 }
