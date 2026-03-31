@@ -17,6 +17,8 @@ public class Personaje {
     public String getNombre() {
         return nombre;
     }
- 
+   public int getNivel() {
+        return nivel;
+    }
     }
 
