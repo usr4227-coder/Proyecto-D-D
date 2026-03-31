@@ -16,6 +16,18 @@ public class App {
         thorak.descansar(10);
         thorak.mostrarInfo();
         Personaje.mostrarPersonajes();
-    }
+        Mago lyra = new Mago("Lyra", 4, "Hielo");
+        lyra.ataqueElemental();
+        lyra.entrenar(2);
+        lyra.mostrarInfo();
+        Personaje.mostrarPersonajes();
+        Personaje[] reino = {viajero, thorak, lyra};
+        System.out.println("\n--- Mostrando personajes del reino ---");
+        for (int i = 0; i < reino.length; i++) {
+            Personaje pers = reino[i];
+            pers.mostrarInfo();
+            System.out.println("-------------");
+        }
 
+    }
 }
