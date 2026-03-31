@@ -12,8 +12,11 @@ public class Personaje {
         this.nivel = nivel;
         this.energia = 100;
         totalPersonajes++;
-        
     }
 
+    public String getNombre() {
+        return nombre;
+    }
+ 
     }
 
